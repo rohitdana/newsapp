@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/feed.detail.screen.dart';
 
+// ignore: must_be_immutable
 class Feed extends StatelessWidget {
-  // List<String> title = List();
-  // List<IconData> icon = List();
-  // List<String> image = List();
-  // List<String> subtitle = List();
-
   List items = [
     {
       "title": "10-day Norway road trip itinerary in\nstunning Fjordland",
@@ -14,7 +10,8 @@ class Feed extends StatelessWidget {
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
       "image": [
         "https://ak6.picdn.net/shutterstock/videos/25456226/thumb/1.jpg",
-        "https://ak6.picdn.net/shutterstock/videos/25456226/thumb/1.jpg"
+        "https://hdqwalls.com/download/boat-in-silent-lake-nature-sunset-bj-1440x900.jpg",
+        "https://i.pinimg.com/originals/a5/fe/b1/a5feb1b5f3bcaf5bcd18dba1750c756a.jpg"
       ],
       "icon": Icons.format_align_left,
       "date": "29 min ago",
@@ -37,7 +34,7 @@ class Feed extends StatelessWidget {
         "https://i.pinimg.com/originals/a5/fe/b1/a5feb1b5f3bcaf5bcd18dba1750c756a.jpg"
       ],
       "icon": Icons.videocam,
-       "date": "December 04,2019",
+      "date": "December 04,2019",
     },
     {
       "title": "My 5 highest rated recipes ever",
@@ -45,7 +42,7 @@ class Feed extends StatelessWidget {
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
       "image": ["https://images7.alphacoders.com/817/817988.jpg"],
       "icon": Icons.format_align_left,
-       "date": "September 19,2019",
+      "date": "September 19,2019",
     },
     {
       "title": "Do you really need to warm up before exercise?",

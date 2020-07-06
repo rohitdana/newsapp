@@ -110,6 +110,7 @@ class FeedScreen extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class Aythu extends StatelessWidget {
   List<String> image = List();
 

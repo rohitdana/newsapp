@@ -7,7 +7,8 @@ class ForgetScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+        body: SingleChildScrollView(
+      child: Column(
         children: <Widget>[
           Container(
             padding: EdgeInsets.fromLTRB(15, 30, 0, 0),
@@ -50,7 +51,7 @@ class ForgetScreen extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.fromLTRB(15, 18, 0, 0),
+                padding: EdgeInsets.all(16),
                 alignment: Alignment.topLeft,
                 child: Text(
                   'Select which contact details should we use to reset your password:',
@@ -63,11 +64,9 @@ class ForgetScreen extends StatelessWidget {
               )
             ],
           ),
-          Container(
-            child: Forget(),
-          ),
+          Forget(),
         ],
       ),
-    );
+    ));
   }
 }

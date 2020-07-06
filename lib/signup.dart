@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/feed.screen.dart';
+
 import 'package:newsapp/signin.screen.dart';
 
 class Signup extends StatelessWidget {
@@ -9,29 +9,36 @@ class Signup extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            padding: EdgeInsets.fromLTRB(25, 20, 45, 0),
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
             child: TextField(
               decoration: InputDecoration(
                   hintText: 'E-mail',
                   hintStyle: TextStyle(
                     fontSize: 20,
                   )),
+              style: TextStyle(fontSize: 16),
             ),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(25, 20, 45, 0),
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
             child: TextField(
               decoration: InputDecoration(
                   hintText: 'Full name',
                   hintStyle: TextStyle(
                     fontSize: 20,
                   )),
+              style: TextStyle(fontSize: 16),
             ),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(25, 20, 45, 0),
-            child: TextField(
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
+            child: TextFormField(
               decoration: InputDecoration(hintText: 'Password'),
+              obscureText: true,
+              style: TextStyle(fontSize: 16),
             ),
           ),
           Column(

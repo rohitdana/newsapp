@@ -1,6 +1,5 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
+
 import 'package:newsapp/feedDetail/post.dart';
 import 'package:newsapp/feedDetail/postGallery.dart';
 import 'package:newsapp/feedDetail/postVideo.dart';
@@ -14,9 +13,8 @@ class FeedDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: true,
-      body: InkWell(
-        child: SingleChildScrollView(
+        resizeToAvoidBottomPadding: true,
+        body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               item["icon"] == Icons.format_align_left
@@ -26,8 +24,6 @@ class FeedDetailScreen extends StatelessWidget {
                       : PostVideo()
             ],
           ),
-        ),
-      ),
-    );
+        ));
   }
 }

@@ -8,7 +8,8 @@ class SignupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+        body: SingleChildScrollView(
+      child: Column(
         children: <Widget>[
           Container(
             padding: EdgeInsets.fromLTRB(15, 20, 0, 0),
@@ -122,6 +123,6 @@ class SignupScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
+    ));
   }
 }

@@ -9,19 +9,24 @@ class Signin extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            padding: EdgeInsets.fromLTRB(25, 15, 45, 0),
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
             child: TextField(
               decoration: InputDecoration(
                   hintText: 'E-mail',
                   hintStyle: TextStyle(
                     fontSize: 20,
                   )),
+              style: TextStyle(fontSize: 16),
             ),
           ),
           Container(
-            padding: EdgeInsets.fromLTRB(25, 15, 45, 0),
-            child: TextField(
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
+            child: TextFormField(
               decoration: InputDecoration(hintText: 'Password'),
+              obscureText: true,
+              style: TextStyle(fontSize: 16),
             ),
           ),
           Container(

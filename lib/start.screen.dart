@@ -69,7 +69,7 @@ class StartScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       Container(
-                        padding:EdgeInsets.fromLTRB(20, 0, 0, 0),
+                        padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
                         alignment: Alignment.centerLeft,
                         child: Text(
                           'SIGN UP',
@@ -81,7 +81,7 @@ class StartScreen extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.fromLTRB(0, 0, 14, 0),
+                        padding: EdgeInsets.fromLTRB(0, 0, 5, 0),
                         alignment: Alignment.centerRight,
                         child: CircleAvatar(
                           radius: 25,
@@ -132,8 +132,8 @@ class StartScreen extends StatelessWidget {
                     'Sign in',
                     style: TextStyle(
                       fontSize: 20,
-                      color: Colors.blueAccent,
-                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w900,
                       fontStyle: FontStyle.normal,
                       fontFamily: "josefinSans",
                       letterSpacing: 0.02,

@@ -8,7 +8,8 @@ class Forget extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            padding: EdgeInsets.fromLTRB(25, 30, 45, 0),
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
             child: TextField(
               decoration: InputDecoration(
                   hintText: 'E-mail',
@@ -17,34 +18,33 @@ class Forget extends StatelessWidget {
                   )),
             ),
           ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.fromLTRB(0, 115, 0, 0),
-                child: FlatButton(
-                  onPressed: () {
-                    Navigator.of(context)
-                        .pushNamed(ResetpasswordScreen.routeName);
-                  },
-                  padding: EdgeInsets.all(16),
-                  child: Text(
-                    'CONTINUE',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 15,
-                      fontFamily: "josefinSans",
-                    ),
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              padding: EdgeInsets.all(16),
+              child: FlatButton(
+                onPressed: () {
+                  Navigator.of(context)
+                      .pushNamed(ResetpasswordScreen.routeName);
+                },
+                padding: EdgeInsets.all(16),
+                child: Text(
+                  'CONTINUE',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 15,
+                    fontFamily: "josefinSans",
                   ),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(55),
-                  ),
-                  color: Colors.black,
                 ),
-                margin: EdgeInsets.fromLTRB(20, 35, 20, 15),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(55),
+                ),
+                color: Colors.black,
               ),
-            ],
-          ),
+            ),
+          )
         ],
       ),
     );
