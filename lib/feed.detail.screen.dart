@@ -20,7 +20,7 @@ class FeedDetailScreen extends StatelessWidget {
               item["icon"] == Icons.format_align_left
                   ? ContentPost(Item: item)
                   : item["icon"] == Icons.camera_alt
-                      ? PostGallery()
+                      ? PostGallery(Item: item)
                       : PostVideo()
             ],
           ),

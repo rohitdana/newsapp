@@ -8,10 +8,12 @@ class Feed extends StatelessWidget {
       "title": "10-day Norway road trip itinerary in\nstunning Fjordland",
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
+      "subtitle2":
+          "In the afternoon, pop over to the ferry dock to book your ferry to Tau for tomorrow morning, before exploring one of the many small museums in town. Then head to the colourful buildings lining over Holmegate. Grab an afternoon coffee (or go wild and have a local beer) at the book filled Stuen Boker & Borst cafe, whose outside table offer views overlooking the cute cobbled street.",
       "image": [
-        "https://ak6.picdn.net/shutterstock/videos/25456226/thumb/1.jpg",
-        "https://hdqwalls.com/download/boat-in-silent-lake-nature-sunset-bj-1440x900.jpg",
-        "https://i.pinimg.com/originals/a5/fe/b1/a5feb1b5f3bcaf5bcd18dba1750c756a.jpg"
+        "https://anywhereweroam.com/wp-content/uploads/2017/08/10-day-norway-road-trip-itinerary-4-uai-667x889.jpg",
+        "https://anywhereweroam.com/wp-content/uploads/2017/08/10-day-norway-road-trip-itinerary-9.jpg",
+        "https://s27363.pcdn.co/wp-content/uploads/2016/07/Norway-Road-Trip.jpg.optimal.jpg",
       ],
       "icon": Icons.format_align_left,
       "date": "29 min ago",
@@ -20,8 +22,14 @@ class Feed extends StatelessWidget {
       "title": "No words can\ndescribe the feeling",
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
+      "subtitle2": "A small selection of kayaking photos over the past 4 years",
       "image": [
-        "https://hdqwalls.com/download/boat-in-silent-lake-nature-sunset-bj-1440x900.jpg",
+        "https://images.unsplash.com/photo-1521336575822-6da63fb45455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+        "https://c2.peakpx.com/wallpaper/728/278/446/nature-pristine-waters-calm-kayaking-wallpaper-preview.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSe3BEN0P7TDHRCKMm7zE3bGpjmxeMM_cseCw&usqp=CAU",
+        "https://www.nationalgeographic.com/content/dam/adventure/photos/000/237/23730.ngsversion.1476997329539.adapt.1900.1.jpg",
+        "https://www.fjords.com/wp-content/uploads/2018/04/DSC_8303-1-2000x1200.jpg",
+        "https://wallpapercave.com/wp/wp1983163.jpg",
       ],
       "icon": Icons.camera_alt,
       "date": "4 days ago",
@@ -31,7 +39,7 @@ class Feed extends StatelessWidget {
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination. ",
       "image": [
-        "https://i.pinimg.com/originals/a5/fe/b1/a5feb1b5f3bcaf5bcd18dba1750c756a.jpg"
+        "https://i.pinimg.com/originals/a5/fe/b1/a5feb1b5f3bcaf5bcd18dba1750c756a.jpg",
       ],
       "icon": Icons.videocam,
       "date": "December 04,2019",
@@ -40,7 +48,13 @@ class Feed extends StatelessWidget {
       "title": "My 5 highest rated recipes ever",
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
-      "image": ["https://images7.alphacoders.com/817/817988.jpg"],
+      "subtitle2":
+          "In the afternoon, pop over to the ferry dock to book your ferry to Tau for tomorrow morning, before exploring one of the many small museums in town. Then head to the colourful buildings lining over Holmegate. Grab an afternoon coffee (or go wild and have a local beer) at the book filled Stuen Boker & Borst cafe, whose outside table offer views overlooking the cute cobbled street.",
+      "image": [
+        "https://images7.alphacoders.com/817/817988.jpg",
+        "https://i.pinimg.com/originals/8c/51/3d/8c513d6d5c59edb67bbe108e0228e85b.jpg",
+        "https://www.recipetineats.com/wp-content/uploads/2017/07/Chicken-Burgers-5.jpg",
+      ],
       "icon": Icons.format_align_left,
       "date": "September 19,2019",
     },
@@ -49,7 +63,7 @@ class Feed extends StatelessWidget {
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
       "image": [
-        "http://www.pixelstalk.net/wp-content/uploads/2016/06/Images-HD-Fitness-Backgrounds.jpg"
+        "http://www.pixelstalk.net/wp-content/uploads/2016/06/Images-HD-Fitness-Backgrounds.jpg",
       ],
       "icon": Icons.videocam,
       "date": "September 02,2019",
@@ -58,8 +72,13 @@ class Feed extends StatelessWidget {
       "title": "How reliable is the Porsche 911 GT2RS?",
       "subtitle":
           "This Unesco listed gem one of scenic wonder of the world. It's also a great road trip destination. The execellent roads wind their way along sleek slender lakes, before rising up over vertical granite cliffs. They carry you into beautiful towns and villages and career up mountain roads to snarling glaciers and remote farmes. And carry you to your next beautiful destination.",
-      "image":
-          "http://img.netcarshow.com/Porsche-911_GT2_RS_2011_1600x1200_wallpaper_34.jpg",
+      "subtitle2":
+          "In the afternoon, pop over to the ferry dock to book your ferry to Tau for tomorrow morning, before exploring one of the many small museums in town. Then head to the colourful buildings lining over Holmegate. Grab an afternoon coffee (or go wild and have a local beer) at the book filled Stuen Boker & Borst cafe, whose outside table offer views overlooking the cute cobbled street.",
+      "image": [
+        "https://cdn.motor1.com/images/mgl/2kAmz/s3/porsche-911-gt2-rs-mr.jpg",
+        "http://st.automobilemag.com/uploads/sites/11/2017/11/2018-Porsche-911-GT2-RS-front-three-quarter-09.jpg",
+        "https://i.ytimg.com/vi/0WZ-eZZXi-g/maxresdefault.jpg",
+      ],
       "icon": Icons.format_align_left,
       "date": "Agudst 28,2019",
     },

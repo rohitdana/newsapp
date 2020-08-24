@@ -5,8 +5,13 @@ class PostVideo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-    
+    return Column(
+      children: <Widget>[
+        Container(
+          child: Text("Rohit"),
+        ),
+      ],
     );
   }
 }
+  

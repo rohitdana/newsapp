@@ -5,6 +5,8 @@ import 'package:newsapp/forget.screen.dart';
 class Signin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
+    bool isSwitched = false;
     return Container(
       child: Column(
         children: <Widget>[

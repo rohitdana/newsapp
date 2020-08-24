@@ -4,7 +4,7 @@ import 'package:newsapp/start.screen.dart';
 
 class SignupScreen extends StatelessWidget {
   static const routeName = '/signup';
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
